@@ -1,4 +1,4 @@
-# react-native-zeroconf [![Week Stars](http://starveller.sigsev.io/api/repos/Apercu/react-native-zeroconf/badge)](http://starveller.sigsev.io/Apercu/react-native-zeroconf)
+# react-native-zeroconf
 
 > Basic Zeroconf implementation for React-native
 
@@ -6,13 +6,16 @@ Get running services advertizing themselves using Zeroconf implementations like 
 
 ### Install
 
-    npm i -S react-native-zeroconf
-    react-native install react-native-zeroconf
-    react-native link react-native-zeroconf
+    yarn add react-native-zeroconf
+    react-native link
 
 You can look at [the wiki](https://github.com/Apercu/react-native-zeroconf/wiki) if you prefer a manual install.
 
 TXT records will be available on iOS and Android >= 7.
+
+### Example
+
+Take a look at the [example folder](./example). Install the dependencies, run `node server.js` and launch the project.
 
 ### API
 
